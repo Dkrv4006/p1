@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 1;
+  color: white;
+  font-weight: 300;
+}
+
+a {
+  color: inherit;
+}
+
+.frame {
+  width: 400px;
+  height: 400px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.square-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  border: 1px solid #fff;
+  position: absolute;
+  animation: rotate 2s ease-in-out infinite;
+  animation-direction: alternate;
+  background-color: #222;
+}
+
+.frame:hover .square {
+  animation-play-state: paused;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: rotate(360deg) translate3d(0, 0, 0);
+  }
+}
+
+.square-1 {
+  width: 10px;
+  height: 10px;
+  animation-delay: 0.03s;
+  border: 1px solid #fff;
+}
+
+.square-2 {
+  width: 20px;
+  height: 20px;
+  animation-delay: 0.06s;
+  border: 1px solid #efefef;
+}
+
+.square-3 {
+  width: 30px;
+  height: 30px;
+  animation-delay: 0.09s;
+  border: 1px solid #eee;
+}
+
+.square-4 {
+  width: 40px;
+  height: 40px;
+  animation-delay: 0.12s;
+  border: 1px solid #dfdfdf;
+}
+
+.square-5 {
+  width: 50px;
+  height: 50px;
+  animation-delay: 0.15s;
+  border: 1px solid #ddd;
+}
+
+.square-6 {
+  width: 60px;
+  height: 60px;
+  animation-delay: 0.18s;
+  border: 1px solid #cfcfcf;
+}
+
+.square-7 {
+  width: 70px;
+  height: 70px;
+  animation-delay: 0.21s;
+  border: 1px solid #ccc;
+}
+
+.square-8 {
+  width: 80px;
+  height: 80px;
+  animation-delay: 0.24s;
+  border: 1px solid #ff0303;
+}
+
+.square-9 {
+  width: 90px;
+  height: 90px;
+  animation-delay: 0.27s;
+  border: 1px solid #bbb;
+}
+
+.square-10 {
+  width: 100px;
+  height: 100px;
+  animation-delay: 0.3s;
+  border: 1px solid #fa0202;
+}
+
+.square-11 {
+  width: 110px;
+  height: 110px;
+  animation-delay: 0.33s;
+  border: 1px solid #aaa;
+}
+
+.square-12 {
+  width: 120px;
+  height: 120px;
+  animation-delay: 0.36s;
+  border: 1px solid #fd0303;
+}
+
+.square-13 {
+  width: 130px;
+  height: 130px;
+  animation-delay: 0.39s;
+  border: 1px solid #999;
+}
+
+.square-14 {
+  width: 140px;
+  height: 140px;
+  animation-delay: 0.42s;
+  border: 1px solid #fa0101;
+}
+
+.square-15 {
+  width: 150px;
+  height: 150px;
+  animation-delay: 0.45s;
+  border: 1px solid #888;
+}
+
+.square-16 {
+  width: 160px;
+  height: 160px;
+  animation-delay: 0.48s;
+  border: 1px solid #fd0303;
+}
+
+.square-17 {
+  width: 170px;
+  height: 170px;
+  animation-delay: 0.51s;
+  border: 1px solid #777;
+}
+
+.square-18 {
+  width: 180px;
+  height: 180px;
+  animation-delay: 0.54s;
+  border: 1px solid #ff0404;
+}
+
+.square-19 {
+  width: 190px;
+  height: 190px;
+  animation-delay: 0.57s;
+  border: 1px solid #666;
+}
+
+.square-20 {
+  width: 200px;
+  height: 200px;
+  animation-delay: 0.6s;
+  border: 1px solid #fa0202;
+}
+
+
+	  
